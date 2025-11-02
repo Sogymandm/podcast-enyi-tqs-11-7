@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Podcast - Enyi TQS</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- SIDE TABS (appear after hero scroll) -->
+  <nav id="sideTabs" class="side-tabs" aria-label="Navegación de secciones">
+    <button data-target="videoSection" class="tab" title="Ir a Video">Video</button>
+    <button data-target="developmentSection" class="tab" title="Ir a Desarrollo">Desarrollo</button>
+    <button data-target="cultureSection" class="tab" title="Ir a Cultura & Mapa">Cultura</button>
+  </nav>
+
+  <main class="site">
+    <!-- HERO / PRESENTACIÓN -->
+    <header id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1 class="hero-title">PODCAST</h1>
+          <p class="hero-sub">Soy Enyi Tatiana Quintero Sinisterra, una mujer afrocolombiana orgullosa de mis raíces. Me considero una persona amable, alegre y auténtica, que valora la cultura, el respeto y las buenas energías.</p>
+
+          <div class="hero-actions">
+            <button id="btnVideo" class="btn-primary">Ver video (Podcast)</button>
+            <button id="btnDesarrollo" class="btn-ghost">Ver preguntas</button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <h3>Presentación</h3>
+            <p class="muted">Soy estudiante de la Institución Educativa Teófilo Roberto Potes, del grado 11-7, y les presento mi podcast.</p>
+            <p class="meta"><strong>Objetivo:</strong> Visibilizar, reflexionar y compartir.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- VIDEO SECTION -->
+    <section id="videoSection" class="section video-section">
+      <div class="section-inner">
+        <h2>Video personal</h2>
+        <p class="lead">Realicé una entrevista a un compañero de mi salón con el propósito de conocer más sobre su historia, sus raíces y el territorio al que pertenece. Fue un espacio para dialogar, compartir y fortalecer la empatía a través de su experiencia personal.</p>
+
+        <div class="video-wrap">
+          <video id="personalVideo" controls playsinline>
+            <source src="Videos/Video_TT.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPMENT / PREGUNTAS -->
+    <section id="developmentSection" class="section development-section">
+      <div class="section-inner">
+        <h2>Desarrollo — Preguntas y Respuestas</h2>
+        <p class="lead">Reflexiones personales sobre identidad, cultura, ley y ancestralidad.</p>
+
+        <div class="cards-grid">
+          <article class="qa-card">
+            <h3>¿Se cree usted afro? ¿Por qué?</h3>
+            <p>Si me siento afro porque hago parte de las tradiciones, de la cultura e incluso mi color hace que yo sea una afro.</p>
+          </article>
+
+          <article class="qa-card">
+            <h3>¿Cómo creo mi identidad afro?</h3>
+            <p>Haciendo parte de las culturas y tradiciones en mi región, sintiéndome parte de ella.</p>
+          </article>
+
+          <article class="qa-card">
+            <h3>¿Cómo fortalece su identidad?</h3>
+            <p>A través del autoconocimiento, la aceptación y la participación con la cultura.</p>
+          </article>
+
+          <article class="qa-card">
+            <h3>¿Cómo me auto percibo?</h3>
+            <p>Como una persona respetuosa, amable y un poco sensible.</p>
+          </article>
+
+          <article class="qa-card">
+            <h3>¿Qué cosas no toleraría usted y por qué?</h3>
+            <p>No tolero la falta de respeto, el hecho de que me hagan sentir mal y que le hagan bullying a otra persona.</p>
+          </article>
+
+          <article class="qa-card">
+            <h3>¿Conoce algo usted sobre la Ley 70?</h3>
+            <p>He oído que es la ley que reconoce el derecho de las comunidades negras.</p>
+          </article>
+
+          <article class="qa-card">
+            <h3>¿A qué se le llama ancestralidad?</h3>
+            <p>Un conjunto de herencia o la genética cultural de los antepasados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CULTURE & MAP -->
+    <section id="cultureSection" class="section culture-section">
+      <div class="section-inner">
+        <h2>Cultura & Territorio</h2>
+        <p class="lead">Imágenes de la región y manifestaciones culturales. El mapa muestra el territorio referencial.</p>
+
+        <div class="culture-grid">
+          <div class="map-block">
+            <!-- sustituye la imagen por tu mapa o imagen territorial -->
+            <img alt="Mapa del territorio" src="Imagenes/Imagen_1.png" />
+            <div class="map-caption">Mapa referencial del territorio en donde queda ubicado Buenaventura. Es el principal puerto marítimo de Colombia sobre el océano Pacífico, ubicado en el departamento del Valle del Cauca. Es una ciudad rica en cultura afrocolombiana, con una fuerte identidad basada en sus tradiciones, música y gastronomía. Su economía gira principalmente en torno al comercio portuario, la pesca y el turismo, siendo además un símbolo de resiliencia y diversidad cultural en el país.</div>
+          </div>
+
+          <div class="gallery-block">
+            <div class="gallery-grid">
+              <figure class="gallery-item">
+                <img alt="Cultura 1" src="Imagenes/Gastronomia_BN.png" />
+                <figcaption>Una parte de nuestra gastronomía.</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img alt="Cultura 2" src="Imagenes/Ballenas.png" />
+                <figcaption>Una parte del turismo.</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img alt="Cultura 3" src="Imagenes/Bailes.png" />
+                <figcaption>Baile llamado "Currulao", es un baile cultural.</figcaption>
+              </figure>
+
+              <figure class="gallery-item">
+                <img alt="Cultura 4" src="Imagenes/faro.png" />
+                <figcaption>En la parte cercana al muelle hay un faro que tiene parte del turismo también.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="section-inner">
+        <p>Hecho para reflexionar, espero haya sido de tu agrado.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
