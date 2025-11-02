@@ -1,10 +1,3 @@
-/* main.js — sincronizado con el HTML y style.css
-   - overlay sutil
-   - side tabs accesible y responsive
-   - reveals con IntersectionObserver (stagger)
-   - respeta prefers-reduced-motion
-*/
-
 document.addEventListener('DOMContentLoaded', () => {
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -151,3 +144,4 @@ document.addEventListener('DOMContentLoaded', () => {
   /* initial micro flash */
   if (!prefersReduced) { setTimeout(()=>{ overlay.classList.add('show'); setTimeout(()=> overlay.classList.remove('show'), 300); }, 220); }
 });
+
